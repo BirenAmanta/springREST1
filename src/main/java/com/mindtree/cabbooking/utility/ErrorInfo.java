@@ -1,9 +1,15 @@
 package com.mindtree.cabbooking.utility;
 
+import java.time.LocalDate;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
 public class ErrorInfo {
-
-	public ErrorInfo() {
-		// TODO Auto-generated constructor stub
-	}
-
+	private int errorCode;
+	private String errorMessage;
+	private LocalDate timeStamp;
+	
 }

@@ -1,0 +1,330 @@
+[INFO ] 2022-05-11 15:24:26.247 [background-preinit] Version - HV000001: Hibernate Validator 6.2.3.Final
+[INFO ] 2022-05-11 15:24:26.350 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-05-11 15:24:26.350 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-05-11 15:24:27.176 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 15:24:27.244 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 15:24:28.191 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 15:24:28.210 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 15:24:28.210 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 15:24:28.211 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 15:24:28.423 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 15:24:28.423 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2072 ms
+[INFO ] 2022-05-11 15:24:28.621 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-05-11 15:24:29.229 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-05-11 15:24:29.308 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 15:24:29.380 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+[INFO ] 2022-05-11 15:24:29.617 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-05-11 15:24:29.810 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 15:24:30.739 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 15:24:30.752 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 15:24:31.281 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 15:24:31.712 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 15:24:31.736 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 15:24:31.768 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 15:24:47.758 [http-nio-8000-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-05-11 15:24:47.759 [http-nio-8000-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-05-11 15:24:47.762 [http-nio-8000-exec-1] DispatcherServlet - Completed initialization in 3 ms
+[ERROR] 2022-05-11 15:25:17.197 [http-nio-8000-exec-5] ExceptionControllerAdvice - org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[WARN ] 2022-05-11 15:25:17.226 [http-nio-8000-exec-5] ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[INFO ] 2022-05-11 15:27:09.366 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 15:27:09.371 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-05-11 15:27:09.382 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-05-11 15:27:09.713 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 15:27:09.727 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 15:27:09.867 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 15:27:09.868 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 15:27:09.868 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 15:27:09.868 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 15:27:09.934 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 15:27:09.935 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 417 ms
+[INFO ] 2022-05-11 15:27:09.987 [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2022-05-11 15:27:10.024 [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2022-05-11 15:27:10.029 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 15:27:10.036 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 15:27:10.092 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 15:27:10.092 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 15:27:10.184 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 15:27:10.320 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 15:27:10.333 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 15:27:10.341 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 15:27:10.350 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2022-05-11 15:27:23.109 [http-nio-8000-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-05-11 15:27:23.109 [http-nio-8000-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-05-11 15:27:23.111 [http-nio-8000-exec-2] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-05-11 15:30:30.789 [RMI TCP Connection(15)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2022-05-11 15:30:30.821 [RMI TCP Connection(15)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 15:30:30.822 [RMI TCP Connection(15)-127.0.0.1] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2022-05-11 15:30:30.829 [RMI TCP Connection(15)-127.0.0.1] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2022-05-11 15:30:34.963 [background-preinit] Version - HV000001: Hibernate Validator 6.2.3.Final
+[INFO ] 2022-05-11 15:30:35.064 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-05-11 15:30:35.064 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-05-11 15:30:35.955 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 15:30:36.029 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 15:30:36.837 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 15:30:36.851 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 15:30:36.852 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 15:30:36.852 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 15:30:37.022 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 15:30:37.023 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1958 ms
+[INFO ] 2022-05-11 15:30:37.170 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-05-11 15:30:37.679 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-05-11 15:30:37.737 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 15:30:37.798 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+[INFO ] 2022-05-11 15:30:38.027 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-05-11 15:30:38.177 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 15:30:38.900 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 15:30:38.912 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 15:30:39.289 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 15:30:39.663 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 15:30:39.685 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 15:30:39.718 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 15:30:53.495 [http-nio-8000-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-05-11 15:30:53.495 [http-nio-8000-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-05-11 15:30:53.498 [http-nio-8000-exec-1] DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-05-11 15:38:11.734 [RMI TCP Connection(16)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2022-05-11 15:38:11.782 [RMI TCP Connection(16)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 15:38:11.787 [RMI TCP Connection(16)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-05-11 15:38:11.804 [RMI TCP Connection(16)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-05-11 16:09:37.146 [background-preinit] Version - HV000001: Hibernate Validator 6.2.3.Final
+[INFO ] 2022-05-11 16:09:38.315 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-05-11 16:09:38.315 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-05-11 16:09:39.381 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:09:39.473 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:09:41.011 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:09:41.033 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:09:41.034 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:09:41.035 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:09:41.308 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:09:41.308 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2992 ms
+[INFO ] 2022-05-11 16:09:41.655 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-05-11 16:09:42.619 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-05-11 16:09:42.740 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:09:42.929 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+[INFO ] 2022-05-11 16:09:43.377 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-05-11 16:09:43.725 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:09:45.195 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:09:45.216 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:09:46.254 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:09:47.022 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:09:47.046 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:09:47.104 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:09:50.812 [http-nio-8000-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:09:50.813 [http-nio-8000-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:09:50.814 [http-nio-8000-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-05-11 16:11:19.416 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 16:11:19.421 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-05-11 16:11:19.433 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-05-11 16:11:19.954 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:11:19.981 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:11:20.145 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:11:20.147 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:11:20.147 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:11:20.148 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:11:20.219 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:11:20.219 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 624 ms
+[INFO ] 2022-05-11 16:11:20.275 [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2022-05-11 16:11:20.316 [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2022-05-11 16:11:20.323 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:11:20.330 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:11:20.396 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:11:20.396 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:11:20.550 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:11:20.745 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:11:20.757 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:11:20.769 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:11:20.783 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2022-05-11 16:12:14.398 [Thread-7] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 16:12:14.399 [Thread-7] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2022-05-11 16:12:14.412 [Thread-7] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2022-05-11 16:12:14.862 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:12:14.879 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:12:18.335 [background-preinit] Version - HV000001: Hibernate Validator 6.2.3.Final
+[INFO ] 2022-05-11 16:12:18.504 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-05-11 16:12:18.504 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-05-11 16:12:19.777 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:12:20.928 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1126 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:12:22.179 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:12:22.201 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:12:22.202 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:12:22.203 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:12:22.389 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:12:22.389 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3883 ms
+[INFO ] 2022-05-11 16:12:22.596 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-05-11 16:12:23.182 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-05-11 16:12:23.311 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:12:23.443 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+[INFO ] 2022-05-11 16:12:23.850 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-05-11 16:12:24.143 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:12:25.219 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:12:25.241 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:12:26.061 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:12:26.774 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:12:26.798 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:12:26.839 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:13:31.858 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 16:13:31.863 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-05-11 16:13:31.875 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-05-11 16:13:32.454 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:13:32.483 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:13:32.659 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:13:32.661 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:13:32.662 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:13:32.662 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:13:32.727 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:13:32.728 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 657 ms
+[INFO ] 2022-05-11 16:13:32.781 [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2022-05-11 16:13:32.821 [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2022-05-11 16:13:32.827 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:13:32.834 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:13:32.905 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:13:32.906 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:13:33.073 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:13:33.243 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:13:33.249 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:13:33.259 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:13:33.273 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2022-05-11 16:13:45.732 [background-preinit] Version - HV000001: Hibernate Validator 6.2.3.Final
+[INFO ] 2022-05-11 16:13:45.902 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-05-11 16:13:45.903 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-05-11 16:13:47.145 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:13:47.249 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:13:48.613 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:13:48.630 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:13:48.631 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:13:48.632 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:13:48.837 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:13:48.838 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2934 ms
+[INFO ] 2022-05-11 16:13:49.113 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-05-11 16:13:49.728 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-05-11 16:13:49.811 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:13:49.916 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+[INFO ] 2022-05-11 16:13:50.231 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-05-11 16:13:50.423 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:13:51.333 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:13:51.345 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:13:52.008 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:13:52.529 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:13:52.553 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:13:52.596 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:13:59.270 [http-nio-8000-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:13:59.270 [http-nio-8000-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:13:59.275 [http-nio-8000-exec-1] DispatcherServlet - Completed initialization in 4 ms
+[ERROR] 2022-05-11 16:14:52.749 [http-nio-8000-exec-3] ExceptionControllerAdvice - org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[WARN ] 2022-05-11 16:14:52.784 [http-nio-8000-exec-3] ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-05-11 16:16:00.525 [http-nio-8000-exec-5] ExceptionControllerAdvice - must not be null
+[WARN ] 2022-05-11 16:16:00.528 [http-nio-8000-exec-5] ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.mindtree.cabbooking.api.CabBookingAPI.bookCab(com.mindtree.cabbooking.dto.BookingDTO) throws com.mindtree.cabbooking.exception.CabBookingException: [Field error in object 'bookingDTO' on field 'bookingId': rejected value [null]; codes [NotNull.bookingDTO.bookingId,NotNull.bookingId,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookingDTO.bookingId,bookingId]; arguments []; default message [bookingId]]; default message [must not be null]] ]
+[INFO ] 2022-05-11 16:19:40.114 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 16:19:40.120 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-05-11 16:19:40.134 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-05-11 16:19:40.598 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:19:40.620 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:19:40.782 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:19:40.784 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:19:40.784 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:19:40.784 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:19:40.840 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:19:40.840 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 558 ms
+[INFO ] 2022-05-11 16:19:40.890 [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2022-05-11 16:19:40.929 [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2022-05-11 16:19:40.936 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:19:40.946 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:19:41.034 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:19:41.034 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:19:41.247 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:19:41.452 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:19:41.462 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:19:41.473 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:19:41.483 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2022-05-11 16:19:48.700 [background-preinit] Version - HV000001: Hibernate Validator 6.2.3.Final
+[INFO ] 2022-05-11 16:19:48.847 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-05-11 16:19:48.847 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-05-11 16:19:49.902 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:19:49.983 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:19:51.185 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:19:51.202 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:19:51.203 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:19:51.203 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:19:51.382 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:19:51.382 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2535 ms
+[INFO ] 2022-05-11 16:19:51.603 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-05-11 16:19:52.304 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-05-11 16:19:52.377 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:19:52.466 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+[INFO ] 2022-05-11 16:19:52.763 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-05-11 16:19:52.960 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:19:53.798 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:19:53.814 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:19:54.400 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:19:54.883 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:19:54.906 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:19:54.945 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:20:15.905 [http-nio-8000-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:20:15.906 [http-nio-8000-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:20:15.911 [http-nio-8000-exec-2] DispatcherServlet - Completed initialization in 5 ms
+[ERROR] 2022-05-11 16:20:16.463 [http-nio-8000-exec-2] ExceptionControllerAdvice - must not be null
+[WARN ] 2022-05-11 16:20:16.553 [http-nio-8000-exec-2] ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.mindtree.cabbooking.api.CabBookingAPI.bookCab(com.mindtree.cabbooking.dto.BookingDTO) throws com.mindtree.cabbooking.exception.CabBookingException: [Field error in object 'bookingDTO' on field 'bookingId': rejected value [null]; codes [NotNull.bookingDTO.bookingId,NotNull.bookingId,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookingDTO.bookingId,bookingId]; arguments []; default message [bookingId]]; default message [must not be null]] ]
+[INFO ] 2022-05-11 16:21:31.718 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 16:21:31.727 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-05-11 16:21:31.751 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-05-11 16:21:32.240 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:21:32.264 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:21:32.439 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:21:32.440 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:21:32.441 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:21:32.441 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:21:32.498 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:21:32.499 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 560 ms
+[INFO ] 2022-05-11 16:21:32.545 [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2022-05-11 16:21:32.587 [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2022-05-11 16:21:32.594 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:21:32.602 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:21:32.675 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:21:32.675 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:21:32.845 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:21:33.036 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:21:33.050 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:21:33.068 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:21:33.077 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2022-05-11 16:21:37.422 [http-nio-8000-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:21:37.423 [http-nio-8000-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:21:37.424 [http-nio-8000-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[ERROR] 2022-05-11 16:21:37.689 [http-nio-8000-exec-2] ExceptionControllerAdvice - The given cab no. is invalid
+[WARN ] 2022-05-11 16:21:37.699 [http-nio-8000-exec-2] ExceptionHandlerExceptionResolver - Resolved [com.mindtree.cabbooking.exception.CabBookingException: Service.CAB_NOT_FOUND]
+[INFO ] 2022-05-11 16:26:02.055 [Thread-7] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2022-05-11 16:26:02.056 [Thread-7] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2022-05-11 16:26:02.065 [Thread-7] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2022-05-11 16:26:02.529 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:26:02.549 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:26:02.722 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:26:02.723 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:26:02.724 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:26:02.724 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:26:02.783 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:26:02.783 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 556 ms
+[INFO ] 2022-05-11 16:26:02.828 [restartedMain] HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 2022-05-11 16:26:06.077 [background-preinit] Version - HV000001: Hibernate Validator 6.2.3.Final
+[INFO ] 2022-05-11 16:26:07.223 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-05-11 16:26:07.224 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-05-11 16:26:08.161 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2022-05-11 16:26:08.234 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+[INFO ] 2022-05-11 16:26:09.363 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 2022-05-11 16:26:09.379 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:26:09.380 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-05-11 16:26:09.380 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+[INFO ] 2022-05-11 16:26:09.559 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-05-11 16:26:09.559 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2335 ms
+[INFO ] 2022-05-11 16:26:09.765 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-05-11 16:26:10.330 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-05-11 16:26:10.409 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2022-05-11 16:26:10.501 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+[INFO ] 2022-05-11 16:26:10.796 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2022-05-11 16:26:10.977 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[INFO ] 2022-05-11 16:26:11.753 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2022-05-11 16:26:11.766 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2022-05-11 16:26:12.377 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2022-05-11 16:26:12.888 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-05-11 16:26:12.911 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 2022-05-11 16:26:12.953 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 2022-05-11 16:28:11.936 [http-nio-8000-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:28:11.936 [http-nio-8000-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-05-11 16:28:11.939 [http-nio-8000-exec-2] DispatcherServlet - Completed initialization in 3 ms
